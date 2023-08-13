@@ -1,5 +1,3 @@
-// schemas/schema.js
-
 export default {
   name: 'foodItem',
   title: 'Food Item',
@@ -36,11 +34,14 @@ export default {
         hotspot: true,
       },
     },
-    
-    
+    {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'name', 
+        maxLength: 100, 
+      },
+    },
   ],
-
-  
 };
-
-
