@@ -42,6 +42,13 @@ export default {
         source: 'name', 
         maxLength: 100, 
       },
+      
     },
+
+    {
+        name: 'country',
+        title: 'Food Country Origin',
+        type:'String',
+      },
   ],
 };
