@@ -48,7 +48,7 @@ export default {
     {
         name: 'country',
         title: 'Food Country Origin',
-        type:'String',
+        type:'string',
       },
   ],
 };
