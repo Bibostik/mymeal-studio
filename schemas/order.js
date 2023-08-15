@@ -13,7 +13,7 @@ export default {
       name: 'items',
       title: 'Ordered Items',
       type: 'array',
-      of: [{ type: 'reference', to: [{ type: 'meal' }] }],
+      of: [{ type: 'reference', to: [{ type: 'foodItem' }] }],
     },
     {
       name: 'totalPrice',
